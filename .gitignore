@@ -1,0 +1,68 @@
+# Python bytecode, test results, and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+torchinductor*/
+
+# Virtual environments and package/build output
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment values; keep example configuration files
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Dataset payloads and generated previews
+# Keep data.yaml, CSV manifests, JSON summaries, and README files outside these directories.
+/data/**/images/
+/data/**/labels/
+/data/**/review/
+/data/**/traces/
+/data/crack512/**/outputs_RGB/
+/data/crack512/**/outputs_Mask/
+*.cache
+
+# Model weights and exported models
+# Keep source code and model configuration files, including weights/**/config.json.
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.weights
+*.bin
+
+# Generated training, validation, prediction, and logging output
+/runs/
+/output/
+/outputs/
+/logs/
+/checkpoints/
+/tensorboard/
+*.tfevents.*
