@@ -1,0 +1,54 @@
+{
+  "version": "crack_obb_auto_v1",
+  "method": "one minimum-area rotated rectangle per 8-connected green-mask component",
+  "class_id": 0,
+  "class_name": "crack",
+  "min_component_pixels": 12,
+  "minimum_box_side_pixels": 2.0,
+  "patches": 5462,
+  "source_groups": 147,
+  "split_groups": {
+    "train": 84,
+    "val": 31,
+    "test": 32
+  },
+  "splits": {
+    "train": {
+      "patches": 3822,
+      "source_groups": 84,
+      "images_with_boxes": 3802,
+      "images_without_boxes": 20,
+      "boxes": 6644,
+      "ignored_small_components": 213,
+      "ignored_small_pixels": 743,
+      "box_aspect_median": 7.601491596158299,
+      "box_aspect_p90": 17.54431210497408,
+      "box_aspect_max": 55.01797477369817
+    },
+    "val": {
+      "patches": 818,
+      "source_groups": 31,
+      "images_with_boxes": 813,
+      "images_without_boxes": 5,
+      "boxes": 1387,
+      "ignored_small_components": 51,
+      "ignored_small_pixels": 219,
+      "box_aspect_median": 7.232959987042988,
+      "box_aspect_p90": 16.121323877289644,
+      "box_aspect_max": 42.60532506285409
+    },
+    "test": {
+      "patches": 822,
+      "source_groups": 32,
+      "images_with_boxes": 816,
+      "images_without_boxes": 6,
+      "boxes": 1396,
+      "ignored_small_components": 55,
+      "ignored_small_pixels": 210,
+      "box_aspect_median": 7.0021452730107985,
+      "box_aspect_p90": 16.041177297937434,
+      "box_aspect_max": 49.5
+    }
+  },
+  "note": "Automatically derived OBB labels from CUBIT-Seg pixel masks; curved/branched crack boxes require visual review."
+}
