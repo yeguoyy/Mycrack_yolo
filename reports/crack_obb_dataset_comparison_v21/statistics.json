@@ -1,0 +1,86 @@
+{
+  "samples": 5462,
+  "image_splits": {
+    "train": 3822,
+    "val": 818,
+    "test": 822
+  },
+  "source_groups": 147,
+  "kept_mask_pixels": 28623810,
+  "ignored_small_component_pixels": 1172,
+  "versions": {
+    "V1": {
+      "boxes": 9427,
+      "boxes_per_image": 1.7259245697546686,
+      "boxes_by_split": {
+        "train": 6644,
+        "val": 1387,
+        "test": 1396
+      },
+      "coverage_on_filtered_mask": 0.9259590529702371,
+      "background_pixels_inside_original_images": 109351665,
+      "coverage_below_99_5_images": 3593,
+      "nonrectangular_label_polygons": 7223,
+      "images_with_nonrectangular_polygons": 5061,
+      "at_448_fit_long_edge": {
+        "long_median_px": 181.56872177124023,
+        "long_under16_pct": 4.5719741168982715,
+        "long_under32_pct": 10.427495491672854,
+        "short_median_px": 18.16823959350586,
+        "short_under4_pct": 3.044446801739684
+      },
+      "labels_sha256_in_manifest_order": "85d9eba5bf43ead717d2e1cce3777e40180195b81efe3450b28449325e24fdba"
+    },
+    "V2": {
+      "boxes": 42007,
+      "boxes_per_image": 7.690772610765287,
+      "boxes_by_split": {
+        "train": 30606,
+        "val": 5719,
+        "test": 5682
+      },
+      "coverage_on_filtered_mask": 1.0,
+      "background_pixels_inside_original_images": 27287698,
+      "coverage_below_99_5_images": 0,
+      "nonrectangular_label_polygons": 0,
+      "images_with_nonrectangular_polygons": 0,
+      "at_448_fit_long_edge": {
+        "long_median_px": 33.25011348724365,
+        "long_under16_pct": 33.53250648701407,
+        "long_under32_pct": 49.122765253410144,
+        "short_median_px": 10.500225305557251,
+        "short_under4_pct": 14.695169852643609
+      },
+      "labels_sha256_in_manifest_order": "9dbb9d761b07a71422587fe6f93d22e8e223d724505027266ba775a721274ff5"
+    },
+    "V2.1": {
+      "boxes": 12676,
+      "boxes_per_image": 2.320761625778103,
+      "boxes_by_split": {
+        "train": 8958,
+        "val": 1828,
+        "test": 1890
+      },
+      "coverage_on_filtered_mask": 1.0,
+      "background_pixels_inside_original_images": 58997552,
+      "coverage_below_99_5_images": 0,
+      "nonrectangular_label_polygons": 0,
+      "images_with_nonrectangular_polygons": 0,
+      "at_448_fit_long_edge": {
+        "long_median_px": 136.99210454455624,
+        "long_under16_pct": 2.137898390659514,
+        "long_under32_pct": 6.658251814452509,
+        "short_median_px": 21.019724372844433,
+        "short_under4_pct": 0.0
+      },
+      "labels_sha256_in_manifest_order": "d488ddd279aaa5079e47ae7d18e443061f9e739eec67b62e6130958d8945982c"
+    }
+  },
+  "notes": [
+    "覆盖率与框并集背景仅在共同原图范围内统计。",
+    "V2.1 在栅格化前先扣除补边引入的坐标平移。",
+    "448 尺寸按各版本自身图片估算，不包含随机增强与额外步幅对齐补边。",
+    "V1 裁剪后的四边形先用 minAreaRect 重拟合，再统计长宽。",
+    "掩码覆盖率为几何覆盖，不代表精确率、召回率或标注正确率。"
+  ]
+}

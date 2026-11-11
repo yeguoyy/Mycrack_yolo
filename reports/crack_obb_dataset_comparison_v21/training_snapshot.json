@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-11-10",
+  "training_records": [
+    {
+      "version": "V1",
+      "run": "D:\\Code\\wall_damage_identification_model\\yolo\\runs\\crack_yolo26n_448",
+      "results_csv": "D:\\Code\\wall_damage_identification_model\\yolo\\runs\\crack_yolo26n_448\\results.csv",
+      "recorded_epochs": 100,
+      "selection": "highest metrics/mAP50-95(B) in recorded training CSV",
+      "epoch": 98,
+      "precision": 0.64144,
+      "recall": 0.58327,
+      "map50": 0.57196,
+      "map50_95": 0.29944
+    },
+    {
+      "version": "V2",
+      "run": "D:\\Code\\wall_damage_identification_model\\yolo\\runs\\crack_yolo26n_448_v2",
+      "results_csv": "D:\\Code\\wall_damage_identification_model\\yolo\\runs\\crack_yolo26n_448_v2\\results.csv",
+      "recorded_epochs": 100,
+      "selection": "highest metrics/mAP50-95(B) in recorded training CSV",
+      "epoch": 79,
+      "precision": 0.57223,
+      "recall": 0.49624,
+      "map50": 0.45295,
+      "map50_95": 0.19053
+    },
+    {
+      "version": "V2.1",
+      "run": "D:\\Code\\wall_damage_identification_model\\yolo\\runs\\crack_yolo26n_448_v21",
+      "results_csv": "D:\\Code\\wall_damage_identification_model\\yolo\\runs\\crack_yolo26n_448_v21\\results.csv",
+      "recorded_epochs": 100,
+      "selection": "highest metrics/mAP50-95(B) in recorded training CSV",
+      "epoch": 74,
+      "precision": 0.67267,
+      "recall": 0.6384,
+      "map50": 0.6722,
+      "map50_95": 0.3481
+    }
+  ],
+  "latest_v21_standalone_val": {
+    "source_file": "D:\\Code\\wall_damage_identification_model\\yolo\\output\\val_metrics.txt",
+    "plots_directory": "D:\\Code\\wall_damage_identification_model\\yolo\\output\\val-7",
+    "metrics": {
+      "Precision(P)": 0.672066,
+      "Recall(R)": 0.637856,
+      "mAP50": 0.672077,
+      "mAP50-95": 0.348812
+    }
+  },
+  "note": "Different annotation versions define different targets; cross-version scores are descriptive and not a controlled accuracy improvement."
+}
