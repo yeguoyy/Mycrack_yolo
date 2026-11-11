@@ -1,0 +1,8 @@
+{
+  "initial_manifest_sha256": "4a7a90b3e5c7205f7ce88f3eaec40632023e5a60403429b67f0be98ba14404b0",
+  "samples": 5462,
+  "copied_files": 10924,
+  "copied_at": "2026-11-10",
+  "split_policy": "preserved source-photo groups and train/val/test assignments",
+  "storage": "independent file copies, not hard links"
+}

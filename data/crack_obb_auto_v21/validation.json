@@ -1,0 +1,57 @@
+{
+  "version": "crack_obb_auto_v21",
+  "samples": 5462,
+  "boxes": 12676,
+  "source_manifest": "D:\\Code\\wall_damage_identification_model\\yolo\\data\\crack512\\manifest.csv",
+  "source_groups": 147,
+  "source_group_split_leakage": false,
+  "normalized_coordinates_in_bounds": true,
+  "rectangles_valid": true,
+  "max_adjacent_edge_cosine_error": 5.281942348964779e-05,
+  "duplicate_labels": 0,
+  "extra_or_missing_files": 0,
+  "kept_mask_pixels": 28623810,
+  "ignored_small_component_pixels": 1172,
+  "minimum_roundtrip_mask_coverage": 1.0,
+  "preview_settings_match": true,
+  "preview_labels_identical": 36,
+  "ultralytics_obb_loader": {
+    "train": {
+      "images": 3822,
+      "boxes": 8958,
+      "empty_labels": 20,
+      "sample_batch_shape": [
+        2,
+        3,
+        448,
+        448
+      ]
+    },
+    "val": {
+      "images": 818,
+      "boxes": 1828,
+      "empty_labels": 5,
+      "sample_batch_shape": [
+        2,
+        3,
+        448,
+        448
+      ]
+    },
+    "test": {
+      "images": 822,
+      "boxes": 1890,
+      "empty_labels": 6,
+      "sample_batch_shape": [
+        2,
+        3,
+        448,
+        448
+      ]
+    }
+  },
+  "flag_counts": {},
+  "source_manifest_sha256": "509f6b6cf42932458dba7e37811e087dfc84262f5921afa61d5a7b3f2761b4a4",
+  "converter_sha256": "ee9e984f46368395d7273009672123b1f9b3eaf445f8e66b34642fe905abf105",
+  "existing_v2_config_and_training_scripts_unchanged": true
+}

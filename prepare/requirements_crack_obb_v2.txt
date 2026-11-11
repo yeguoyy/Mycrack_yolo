@@ -1,0 +1,2 @@
+# 使用现有 pytorch_cu126 环境中的 numpy/scipy/OpenCV；仅在独立 venv 补齐骨架化依赖。
+scikit-image==0.25.2

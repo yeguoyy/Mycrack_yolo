@@ -1,0 +1,7 @@
+# Full dataset; automatic crack-segment OBB labels
+path: D:/Code/wall_damage_identification_model/yolo/data/crack_obb_auto_v21
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: crack

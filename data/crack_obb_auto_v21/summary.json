@@ -1,0 +1,62 @@
+{
+  "version": "crack_obb_auto_v21",
+  "comparison": "V2",
+  "mode": "full",
+  "samples": 5462,
+  "splits": {
+    "train": 3822,
+    "val": 818,
+    "test": 822
+  },
+  "old_boxes": 42007,
+  "new_boxes": 12676,
+  "kept_mask_pixels": 28623810,
+  "ignored_small_component_pixels": 1172,
+  "new_coverage": 1.0,
+  "old_background_pixels": 27478158,
+  "new_background_pixels": 61844035,
+  "background_reduction": -1.2506615982046538,
+  "flag_counts": {},
+  "settings": {
+    "min_component_pixels": 12,
+    "min_box_side": 8.0,
+    "min_segment_length": 64.0,
+    "max_deviation": 14.0,
+    "width_tolerance": 1.5,
+    "prune": 2.0,
+    "prune_min": 3.0,
+    "profile": "relaxed",
+    "padding": 2.0,
+    "merge_angle": 25.0,
+    "merge_area_ratio": 1.35,
+    "tiny_length": 32.0,
+    "split_angle": 30.0,
+    "direction_window": 48.0,
+    "turn_persistence": 16.0
+  },
+  "upstream": {
+    "repository": "https://github.com/Kronbii/fine-crack-tracing",
+    "commit": "da32dd1ae80f2b6b1a58758033b183e16b6259a2"
+  },
+  "source_manifest": "D:\\Code\\wall_damage_identification_model\\yolo\\data\\crack512\\manifest.csv",
+  "review_samples": 36,
+  "padded_images": 5339,
+  "max_padding_per_side_px": 80,
+  "geometry_at_448": {
+    "V2": {
+      "long_median_px": 32.365128030418255,
+      "long_under16_pct": 34.01575927821553,
+      "long_under32_pct": 49.79646249434618,
+      "short_median_px": 10.31839791170827,
+      "short_under4_pct": 14.726117075725476
+    },
+    "V2.1": {
+      "long_median_px": 136.99199392949762,
+      "long_under16_pct": 2.137898390659514,
+      "long_under32_pct": 6.658251814452509,
+      "short_median_px": 21.019538159149644,
+      "short_under4_pct": 0.0
+    }
+  },
+  "note": "Geometric pseudo-labels for crack segments; lower box background does not prove improved model accuracy."
+}

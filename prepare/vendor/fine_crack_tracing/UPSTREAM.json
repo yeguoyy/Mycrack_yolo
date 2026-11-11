@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/Kronbii/fine-crack-tracing",
+  "commit": "da32dd1ae80f2b6b1a58758033b183e16b6259a2",
+  "version": "1.0.0",
+  "license": "MIT",
+  "vendored_files": [
+    "src/fine_tracing/__init__.py",
+    "src/fine_tracing/bench.py",
+    "src/fine_tracing/cli.py",
+    "src/fine_tracing/config.py",
+    "src/fine_tracing/corners.py",
+    "src/fine_tracing/geometry.py",
+    "src/fine_tracing/graph.py",
+    "src/fine_tracing/io.py",
+    "src/fine_tracing/legacy.py",
+    "src/fine_tracing/mask.py",
+    "src/fine_tracing/metrics.py",
+    "src/fine_tracing/pipeline.py",
+    "src/fine_tracing/render.py",
+    "src/fine_tracing/result.py",
+    "src/fine_tracing/synth.py",
+    "LICENSE",
+    "pyproject.toml",
+    "README.md"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": "crack_obb_auto_v2",
+  "mode": "full",
+  "samples": 5462,
+  "splits": {
+    "train": 3822,
+    "val": 818,
+    "test": 822
+  },
+  "old_boxes": 9427,
+  "new_boxes": 42007,
+  "kept_mask_pixels": 28623810,
+  "ignored_small_component_pixels": 1172,
+  "new_coverage": 1.0,
+  "old_background_pixels": 109351749,
+  "new_background_pixels": 27287706,
+  "background_reduction": 0.7504593547927615,
+  "flag_counts": {
+    "boundary_axis_aligned_fallback": 4406,
+    "many_segments_review": 387
+  },
+  "settings": {
+    "min_component_pixels": 12,
+    "min_box_side": 2.0,
+    "min_segment_length": 40.0,
+    "max_deviation": 8.0,
+    "width_tolerance": 1.0,
+    "prune": 2.0,
+    "prune_min": 3.0
+  },
+  "upstream": {
+    "repository": "https://github.com/Kronbii/fine-crack-tracing",
+    "commit": "da32dd1ae80f2b6b1a58758033b183e16b6259a2"
+  },
+  "source_manifest": "D:\\Code\\wall_damage_identification_model\\yolo\\data\\crack512\\manifest.csv",
+  "review_samples": 36,
+  "note": "Geometric pseudo-labels for crack segments; lower box background does not prove improved model accuracy."
+}

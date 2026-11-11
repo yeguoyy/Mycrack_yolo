@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "samples": 5462,
+  "boxes": 42007,
+  "source_groups": 147,
+  "source_group_leakage": false,
+  "max_orthogonality_error": 0.00025598361285353603,
+  "all_coordinates_finite_and_normalized": true,
+  "duplicate_labels": 0,
+  "loader": {
+    "train": {
+      "images": 3822,
+      "labels": 30606
+    },
+    "val": {
+      "images": 818,
+      "labels": 5719
+    },
+    "test": {
+      "images": 822,
+      "labels": 5682
+    }
+  },
+  "max_boxes_per_image": 39,
+  "many_segments_review_images": 387
+}
